@@ -33,7 +33,7 @@ const Hero = () => {
             variant="whatsapp"
             size="lg"
             className="text-lg px-8 py-3"
-            onClick={() => window.open("https://wa.me/916238690153", "_blank")}
+            onClick={() => window.open("https://wa.me/916238486792", "_blank")}
           >
             <MessageCircle className="h-5 w-5" />
             WhatsApp
@@ -44,11 +44,11 @@ const Hero = () => {
         <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 max-w-md mx-auto">
           <p className="text-lg mb-2">For Booking Call us:</p>
           <a
-            href="tel:+916238690153"
+            href="tel:+916238486792"
             className="text-2xl font-bold text-secondary hover:text-secondary/80 transition-colors flex items-center justify-center gap-2"
           >
             <Phone className="h-6 w-6" />
-            +91 62386 90153
+            +91 62384 86792
           </a>
         </div>
       </div>

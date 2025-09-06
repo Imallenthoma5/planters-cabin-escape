@@ -156,10 +156,10 @@ const Contact = () => {
                     <div>
                       <p className="text-sm text-gray-600">Mob:</p>
                       <a
-                        href="tel:+916238690153"
+                        href="tel:+916238486792"
                         className="text-lg font-semibold text-nature-green hover:text-nature-green-light"
                       >
-                        +91 6238 690 153
+                        +91 6238 486 792
                       </a>
                     </div>
                   </div>
@@ -195,7 +195,7 @@ const Contact = () => {
                 variant="whatsapp"
                 size="lg"
                 className="w-full"
-                onClick={() => window.open("https://wa.me/916238690153", "_blank")}
+                onClick={() => window.open("https://wa.me/916238486792", "_blank")}
               >
                 <MessageCircle className="h-5 w-5" />
                 Chat on WhatsApp

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const WhatsAppFloat = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/916238690153", "_blank");
+    window.open("https://wa.me/916238486792", "_blank");
   };
 
   return (

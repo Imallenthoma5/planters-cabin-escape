@@ -49,7 +49,7 @@ const Header = () => {
             <Button
               variant="whatsapp"
               size="sm"
-              onClick={() => window.open("https://wa.me/916238690153", "_blank")}
+              onClick={() => window.open("https://wa.me/916238486792", "_blank")}
             >
               <MessageCircle className="h-4 w-4" />
               WhatsApp
@@ -90,7 +90,7 @@ const Header = () => {
                 <Button
                   variant="whatsapp"
                   size="sm"
-                  onClick={() => window.open("https://wa.me/916238690153", "_blank")}
+                  onClick={() => window.open("https://wa.me/916238486792", "_blank")}
                 >
                   <MessageCircle className="h-4 w-4" />
                   WhatsApp

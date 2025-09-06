@@ -127,12 +127,12 @@ const Packages = () => {
             <Button
               variant="hero"
               size="lg"
-              onClick={() => window.open("https://wa.me/916238690153", "_blank")}
+              onClick={() => window.open("https://wa.me/916238486792", "_blank")}
             >
               WhatsApp for Booking
             </Button>
             <Button variant="outline" size="lg">
-              Call +91 6238 690 153
+              Call +91 6238 486 792
             </Button>
           </div>
         </div>
