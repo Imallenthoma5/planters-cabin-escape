@@ -13,6 +13,8 @@ const Header = () => {
     { name: "Packages", href: "/packages" },
     { name: "Gallery", href: "/gallery" },
     { name: "Kuttikkanam", href: "/kuttikkanam" },
+    { name: "Blogs", href: "/blogs" },
+    { name: "FAQs", href: "/faqs" },
     { name: "Contact Us", href: "/contact" },
   ];
 
@@ -46,13 +48,11 @@ const Header = () => {
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button
-              variant="whatsapp"
-              size="sm"
-              onClick={() => window.open("https://wa.me/916238486792", "_blank")}
-            >
-              <MessageCircle className="h-4 w-4" />
-              WhatsApp
+            <Button variant="whatsapp" size="sm" asChild>
+              <a href="https://wa.me/916238486792" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <MessageCircle className="h-4 w-4" />
+                WhatsApp
+              </a>
             </Button>
             <Button variant="hero" size="sm">
               BOOK NOW
