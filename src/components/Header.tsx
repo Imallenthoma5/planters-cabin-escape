@@ -26,7 +26,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-nature-green">
+            <div className="text-2xl font-bold text-nature-green mt-5">
               🌿 Planters Cabin
             </div>
           </Link>
